@@ -1,0 +1,1 @@
+Predict whether Speaker 2's answer to Speaker 1 counts as a yes or as a no
