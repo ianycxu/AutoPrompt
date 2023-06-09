@@ -1,0 +1,1 @@
+This is a task to [DESC]. We have input and output pairs, and have asked labeler give the reason for each output result. Given following data each contains input, output result and reason for the output, summerize a general reason for all these cases:\n\n[DATA]\n\nSummerized reason output: 
