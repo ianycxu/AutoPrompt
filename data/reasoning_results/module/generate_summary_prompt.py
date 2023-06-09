@@ -8,7 +8,7 @@ def get_representative(reasoning_results, sample_number = 5, sample_method = "ra
     """
     if sample_method == "random":
         return reasoning_results.sample(n = sample_number)
-    elif sample_method == "random_balanced" or sample_method == "seg_df":
+    elif sample_method == "random_balanced" or sample_method == "random_balanced_separate":
         return reasoning_results.groupby('output', group_keys=False).apply(lambda x: x.sample(sample_number))
     else:
         # TODO: clustering based
